@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css" media="all"> 
+    <title>WorldEater</title>
+</head>
+
+<body>
+    <header>
+        <!-- Pirmais div ir website logo, animēts banner? -->
+        <div class="CloudBanner">
+            <img src="..\assets\CloudBanner.gif" alt="Banner">
+        </div>
+    </header>
+        <!-- Container ir lielais mājaslapas laukums -->
+    <div class="container">
+        <main>
+
+            <div class="HeaderText">
+                <h1>Hi. Claim your future and dive deeper.</h1>
+                <p>♡ Please, take a look. You are already ahead of everyone, and thats just your style, you can't help it! ♡</p>
+            </div>
+
+            <div class="TarotContainer">
+            <div class="TarotGif">
+                <img src="..\assets\ClaimYourFortuneNow.gif" alt="ClaimYourFortune">
+            </div>
+
+             <div class="TextArea">
+                    <b id="sentence"></b>
+                </div>
+
+                <div class="Psychic">
+                    <button id="GenerateButton">Order</button>
+                </div>
+                 
+             
+                <div class="HotReadings popup">
+                   <img src="..\assets\TarotSpread.gif" alt="">
+                    <div class="ButtonContainer"></div>
+                    <button id="SpreadClose" class="close">&times;</button>
+                    
+                </div>
+
+                <div class="WorldEaterLive popup">
+                     <img src="..\assets\WorldEater.gif" alt="">
+                     
+                    <div class="ButtonContainer popup"></div>
+                    <button id="WorldEaterClose" class="close">&times;</button>
+                    <button id="WorldEaterText"><b>WorldEater</b></button>
+                    
+                </div>
+               
+                <div class="HonseLuck popup">
+                     <img src="..\assets\Honse.gif" id="HonseImg">
+                    <button id="HonseClose" class="close">&times;</button>
+                    <button id="HonseOk" class="close">Ok</button>
+                </div>
+
+                     <div class="ThirdEye popup" id="ThirdEyer">
+                    <img src="..\assets\ThirdEyeEnhancer.gif" id="ThirdEyeImg">
+                    <button id="ThirdEyeClose" class="close">&times;</button>
+                    
+                </div>
+
+                     </div>
+
+                     <div class="Pills popup" id="Pill">
+                  <img src="..\assets\PsychicEnhancer.gif" id="PillImg">
+                    <button id="PillClose" class="close">&times;</button>
+                    
+                </div>
+        </main>
+    </div>
+    <!-- Footeris ar mājaslapas tekstu -->
+<div class="CenterFooter">
+ <div class="FooterContainer">
+        <div class="footer"></div>
+    <footer>ღ This is ∞ Infinite Possible property, please comply © </footer>
+    </div>
+    </div>
+   <script src="..\code\script.js"></script>
+</body>
+
+
+
+</html>
